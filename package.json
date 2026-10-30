@@ -1,0 +1,46 @@
+{
+  "name": "seo-audit-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for technical SEO and AI-search readiness audits: let Claude, ChatGPT or Cursor audit any web page, its links, robots.txt, sitemap and llms.txt.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "seo-audit-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "seo",
+    "seo-audit",
+    "technical-seo",
+    "ai-search",
+    "llms-txt",
+    "claude",
+    "cursor"
+  ],
+  "author": "Nexariza AI (https://nexariza.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nexariza-AI/seo-audit-mcp.git"
+  },
+  "homepage": "https://nexariza.com/services/mcp-server-development",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "node-html-parser": "^7.0.1",
+    "zod": "^4.6.7"
+  }
+}
